@@ -1,0 +1,28 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        // Here your code !
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("グラドル占い！");
+        int x2=new java.util.Random().nextInt(5)+1;
+        switch(x2){
+            case 1:
+                System.out.println("今日のグラドルは今野杏奈！清楚系巨乳の子に優しくしよう！いいことあるかも！");
+                break;
+            case 2:
+                System.out.println("今日のグラドルは南明菜！懐かしいね！アッキーナ！貧乳ギャルに優しくするといいことあるかも");
+                break;
+            case 3:
+                System.out.println("今日のグラドルは手島優！パイレンジャーの動画を見ると運気UP！");
+                break;
+            case 4:
+                System.out.println("今日のグラドルは稲村亜美！今日野球するとホームラン打てるかも！");
+                break;
+            case 5:
+                System.out.println("今日のグラドルは坂口杏里！今は元グラドルだね！特にアドバイスはないよ！なんて日だ！");
+                break;    
+        }
+    }
+}
